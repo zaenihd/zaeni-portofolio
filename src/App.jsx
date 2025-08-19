@@ -18,8 +18,8 @@ import { Menu, X, Github, Linkedin, Mail, Phone, MapPin, ExternalLink, ArrowRigh
  */
 
 // ====== CONFIG / CONTENT ======
-const PROFILE_IMG =
-  "assets/foto.png"; // TODO: replace with your photo
+import foto from "/assets/foto.png"; // path relatif dari App.jsx
+const PROFILE_IMG = foto;
 
 const ACCENT = "#ff6b5a"; // coral-ish accent like in the design
 
@@ -348,17 +348,7 @@ function Hero() {
               >
                 Got a project? <ArrowRight size={18} />
               </a>
-              <a
-                href={safeHref(CONTACT.resumeHref)}
-                onClick={handleResumeClick}
-                target={resumeIsValid ? "_blank" : undefined}
-                rel={resumeIsValid ? "noreferrer" : undefined}
-                className={`inline-flex items-center gap-2 rounded-xl border border-white/15 px-4 py-2 font-semibold hover:bg-white/5 ${
-                  resumeIsValid ? "" : "opacity-60 cursor-not-allowed"
-                }`}
-              >
-                <Download size={18} /> My resume
-              </a>
+             
             </div>
           </motion.div>
 
