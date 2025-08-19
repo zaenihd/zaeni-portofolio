@@ -267,8 +267,7 @@ function AppLayout({ children }) {
   return (
     <div className="min-h-screen bg-slate-900 text-white [--accent:#ff6b5a]">
       {!resumeIsValid && (
-        <div className="bg-amber-500/10 border-b border-amber-400/30 text-amber-200 text-xs px-6 py-2">
-          Heads‑up: set <span className="font-semibold">CONTACT.resumeHref</span> to a public URL (https://...) so the <em>My resume</em> button works.
+        <div >
         </div>
       )}
       <header className="sticky top-0 z-50 backdrop-blur bg-slate-900/80 border-b border-white/10">
