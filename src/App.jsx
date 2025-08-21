@@ -27,7 +27,7 @@ const TAGS = ["Flutter", "Dart", "Android", "iOS", "Firebase", "REST API", "GetX
 
 // Summary taken from your PDF and adapted for the website
 const ABOUT_SUMMARY =
-  "I am Zaeni Hilman Darmawan Hilman Darmawan, a Flutter Developer with 2+ years of experience shipping cross‑platform mobile apps for Android and iOS. I write clean, maintainable code, follow best practices, and am comfortable integrating complex APIs, Firebase services, payments, and native capabilities. I’m enthusiastic, honest, and accountable.";
+  "I am Zaeni Hilman Darmawan, a Flutter Developer with 2+ years of experience shipping cross‑platform mobile apps for Android and iOS. I write clean, maintainable code, follow best practices, and am comfortable integrating complex APIs, Firebase services, payments, and native capabilities. I’m enthusiastic, honest, and accountable.";
 
 const CONTACT = {
   name: "Zaeni Hilman Darmawan",
